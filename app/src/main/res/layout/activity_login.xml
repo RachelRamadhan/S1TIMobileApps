@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Prodi S1 TEKNOLOGI INFORMASI mobile app"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="277dp"
+            android:layout_height="94dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:contentDescription="S1TI"
+            android:src="@drawable/logoteknologiinformasii" />
+
+        <EditText
+            android:id="@+id/edtusername"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:hint="Username" />
+
+        <EditText
+            android:id="@+id/edtpassword"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <Switch
+            android:id="@+id/active"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="50dp"
+            android:text="Remember Me" />
+
+        <Button
+            android:id="@+id/btn_Login"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/masuk" />
+
+        <TextView
+            android:id="@+id/tvaboutITTJ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/hyperlink"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvIgraciasITTJ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/hyperlink2"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+</RelativeLayout>

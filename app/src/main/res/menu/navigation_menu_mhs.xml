@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuDashboard"
+        android:title="@string/HomeScreen"/>
+
+    <item
+        android:id="@+id/menuNews"
+        android:title="@string/berita"/>
+
+    <item
+        android:id="@+id/menuPerkuliahan"
+        android:title="@string/tentangperkuliahan"/>
+
+    <item
+        android:id="@+id/menuPengaturan"
+        android:title="@string/pengaturan"/>
+    <item
+        android:id="@+id/nav_logout"
+        android:onClick="logout"
+        android:title="@string/logout_mhs" />
+
+</menu>

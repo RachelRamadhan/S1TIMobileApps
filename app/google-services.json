@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1058954146344",
+    "firebase_url": "https://s1t1mobileapp-default-rtdb.firebaseio.com",
+    "project_id": "s1t1mobileapp",
+    "storage_bucket": "s1t1mobileapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058954146344:android:f7f1417d799640a94bfb1d",
+        "android_client_info": {
+          "package_name": "com.rachel.s1timobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058954146344-vcl2ch84ve70399t5qkm9orafjmc2qm5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT-7HaekVowKVXy8iI7cgf0lHYcFCIBmU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058954146344-vcl2ch84ve70399t5qkm9orafjmc2qm5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

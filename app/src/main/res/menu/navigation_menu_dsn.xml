@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuDashboard_dsn"
+        android:title="DASHBOARD"/>
+
+    <item
+        android:id="@+id/menuPengaturan"
+        android:title="@string/pengaturan"/>
+    <item
+        android:id="@+id/nav_logout"
+        android:onClick="logout"
+        android:title="LOGOUT" />
+
+</menu>

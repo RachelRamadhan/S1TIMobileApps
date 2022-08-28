@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">S1TIMobileApp</string>
+
+    //login activity
+    <string name="masuk"> LOGIN</string>
+    <string name="buatakun"> REGISTER</string>
+    <string name="hyperlink"><a href="https://ittelkom-jkt.ac.id/">About ITTJ</a></string>
+    <string name="hyperlink2"><a href="https://ittelkom-jkt.ac.id/">Igracias ITTJ</a></string>
+
+    //Dashboard Mahasiswa
+    <string name="profilenama_mahasiswa">Nama Mahasiswa</string>
+    <string name="profilenim_mahasiswa">Nim Mahasiswa</string>
+    <string name="logout_mhs">LOGOUT</string>
+
+    //Dashboard Dosen
+    <string name="nama_dosen">Nama Dosen</string>
+    <string name="nik_dosen">Nik Dosen</string>
+
+
+    //navmenu
+    <string name="HomeScreen">DASHBOARD</string>
+    <string name="berita">NEWS</string>
+    <string name="pengaturan">SETTING</string>
+    <string name="tentangperkuliahan">PERKULIAHAN</string>
+
+    <string name="mulai">LOGIN</string>
+
+</resources>
